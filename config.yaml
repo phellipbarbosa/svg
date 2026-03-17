@@ -1,19 +1,17 @@
-# Configuração Flow Panel
-
 - id: link_dados
-  type: stroke
+  type: stroke  # 'stroke' muda a cor da linha/seta
   metric: 'PortaSFP1'
   thresholds:
-    - color: "#22c55e" # Verde se UP (Valor 1)
+    - color: "#22c55e" # Verde (UP)
       level: 1
-    - color: "#ef4444" # Vermelho se DOWN (Valor 0)
+    - color: "#ef4444" # Vermelho (DOWN)
       level: 0
 
 - id: link_oficina
   type: stroke
   metric: 'PortaSFP3'
   thresholds:
-    - color: "#22c55e" # Verde se UP (Valor 1)
+    - color: "#22c55e"
       level: 1
-    - color: "#ef4444" # Vermelho se DOWN (Valor 0)
+    - color: "#ef4444"
       level: 0
